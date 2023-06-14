@@ -1,1 +1,11 @@
 /* Desenvolva sua estilização aqui ... */
+@import url(./reset.css);
+@import url(./components.css);
+@import url(./range.css);
+@import url(./header.css);
+@import url(./btnFilter.css);
+@import url(./cardContainer.css);
+
+
+
+

@@ -1,0 +1,12 @@
+.filter__content{
+    padding: 10% 0 7% 0 ;
+}
+.filter__filters{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 30px;
+    padding: 5% 0 0 0;
+}
+#dark-white #white{
+    cursor: pointer;
+}

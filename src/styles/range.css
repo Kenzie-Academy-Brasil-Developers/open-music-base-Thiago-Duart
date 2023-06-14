@@ -1,0 +1,38 @@
+.range__container{
+    width: 100%;
+}
+.range__info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 10px 0;
+}
+.range__form>input{
+    width: 99%;
+}
+input[type="range"]{
+    appearance: none;
+    background: var(--color-brand-1);
+    height: 12px;
+    border-radius:20px ;
+}   
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 23px;
+    height: 23px;
+    background: var(--color-grey-2);
+    border-radius:50% ;
+    cursor: pointer;
+}
+
+
+
+.input__value-text{
+    border: none;
+    width: 50px;
+    padding: 0 0 0 10px;
+}
+.range__info-modifier{
+    display: flex;
+    gap: 10px;
+}

@@ -1,0 +1,58 @@
+.font-title{
+    font-size: var(--font-1);
+    color: var(--color-disable-fixed);
+    font-weight: 600;
+}
+.font-text-1{
+    font-size:var(--font-2);
+    color: var(--color-disable-fixed);
+    font-weight: 600; 
+} 
+.font-text-2{
+    font-size:var(--font-2);
+    color: var(--color-grey-0);
+    font-weight: 540; 
+} 
+.btnFilter,.button-default{
+    padding: 8px;
+    border: none;
+    background:var(--color-grey-7);
+    color: var(--color-grey-1);
+    border-radius: var(--radius-1);
+    cursor: pointer;
+}
+.btnFilter:hover{
+    color: var(--color-white-fixed);
+    background: var(--color-grey-0);
+       
+}
+:root.dark-mode .btnFilter:hover {
+    background: var(--color-grey-7);
+    border: 1px solid var(--color-grey-0);
+    color: var(--color-grey-0);
+  }
+.button-default:hover{
+    color: var(--color-white-fixed);
+    background: var(--color-grey-0);
+  
+}
+:root.dark-mode .button-default:hover{
+    background: var(--color-grey-7);
+    border: 1px solid var(--color-grey-0);
+    color: var(--color-grey-0);
+}
+
+#dark{
+    background:var(--color-grey-7);
+    width: 30px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+#dark:hover{
+    border: 1px solid var(--color-grey-0);
+}
+
+.sun{
+    color: aliceblue;
+}
