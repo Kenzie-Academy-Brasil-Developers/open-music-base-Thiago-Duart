@@ -9,7 +9,7 @@
 .font-text-1{
     font-size:var(--font-2);
     color: var(--color-disable-fixed);
-    font-weight: semi bold;
+    font-weight: bold;
     font-family: "Inter", sans-serif;
 
 } 
@@ -20,9 +20,6 @@
     font-family: "Inter", sans-serif;
 
 } 
-
-
-
 
 .btnFilter,.button-default{
     padding: 8px;
