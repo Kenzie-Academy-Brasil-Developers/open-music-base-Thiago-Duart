@@ -1,18 +1,29 @@
 .font-title{
+    text-decoration: none;
     font-size: var(--font-1);
     color: var(--color-disable-fixed);
-    font-weight: 600;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+
 }
 .font-text-1{
     font-size:var(--font-2);
     color: var(--color-disable-fixed);
-    font-weight: 600; 
+    font-weight: semi bold;
+    font-family: "Inter", sans-serif;
+
 } 
 .font-text-2{
     font-size:var(--font-2);
     color: var(--color-grey-0);
-    font-weight: 540; 
+    font-weight: medium;
+    font-family: "Inter", sans-serif;
+
 } 
+
+
+
+
 .btnFilter,.button-default{
     padding: 8px;
     border: none;
