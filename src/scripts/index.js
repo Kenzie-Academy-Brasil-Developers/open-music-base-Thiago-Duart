@@ -21,11 +21,13 @@ function createAlbumMusic(products) {
   containerHero.setAttribute('class','card__hero')
   textContainer.setAttribute('class','card__text')
   info.setAttribute('class','card__info')
+  info.setAttribute('class','font-text-3')
   btnPay.setAttribute('class','button-default')
   name.setAttribute('class','font-text-1')
-  info.innerText = `${products.band} ${products.year}`;
+  price.setAttribute('class','font-text-2')
+  info.innerText =`${products.band} ${products.year}`;
   name.innerText = products.title;
-  price.innerText = `R$ ${products.price}`;
+  price.innerText = `R$ ${products.price}.00`;
   btnPay.innerText = "Comprar";
 
   textContainer.append(info, name)
