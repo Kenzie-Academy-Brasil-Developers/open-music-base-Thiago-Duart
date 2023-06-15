@@ -29,6 +29,9 @@
 
   --radius-1: 0.25rem;
   --container: 45rem;
+
+  --weight-semi-bold:600;
+  --weight-medium:500;
 }
 body {
   font-family: "Inter", sans-serif;

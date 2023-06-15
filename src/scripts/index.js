@@ -22,6 +22,7 @@ function createAlbumMusic(products) {
   textContainer.setAttribute('class','card__text')
   info.setAttribute('class','card__info')
   btnPay.setAttribute('class','button-default')
+  name.setAttribute('class','font-text-1')
   info.innerText = `${products.band} ${products.year}`;
   name.innerText = products.title;
   price.innerText = `R$ ${products.price}`;
